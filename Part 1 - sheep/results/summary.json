@@ -1,0 +1,12 @@
+{
+  "count": 3621,
+  "method": "brightness contrast and local maxima with distance suppression",
+  "threshold": 40,
+  "min_distance": 12,
+  "image_size": [
+    1942,
+    1949
+  ],
+  "image_sha256": "87f2167d0416ab74d80838f8be01a2259fd858452d7204c16a2f3fe6be624990",
+  "status": "unvalidated heuristic estimate; detections may include rocks or split/merge sheep"
+}
