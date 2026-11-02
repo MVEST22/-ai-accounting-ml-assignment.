@@ -1,7 +1,9 @@
-# Completed run validation
+# Run and evidence review
 
-Received the user's Colab results ZIP. Seven image hashes match the repository originals. All seven saved raw Qwen responses reproduce llm_programmatic.json using the notebook parser. Roboflow browser detections are unchanged. Counts: Qwen 8; Roboflow 47.
+All seven image hashes match repository originals. Raw Qwen responses reproduce the saved boxes. Browser Roboflow data is unchanged. Qwen total: 8; Roboflow total: 47.
 
-Qwen inference was executed; Roboflow inference was previously performed in the free browser demo and reused. No ground truth is supplied and no accuracy score is established. Coordinates are interpreted as 0–1000 normalized according to the saved prompt. The comparison recommendation remains pending visual review.
+The user supplied an executed notebook with execution counts on all six code cells, no saved errors, and final counts matching the results ZIP. It is preserved unchanged as executed_inference.ipynb. The overview screenshot confirms totals and the WA0014 screenshot shows both overlays.
 
-The included inference_source_unexecuted_template.ipynb in the original ZIP is a template, not execution evidence. Repository source notebook is stored two folders above. Obtain the executed notebook and a screenshot of the new page for the final submission.
+Visual review of WA0014: Qwen's two boxes overlap stocked products and shelf edges and omit several obvious gaps. Roboflow marks several visible gaps, although small or borderline boxes still need employee checks. Use reviewed Roboflow alerts as the initial list here; no quantitative accuracy claim or validation across all seven photos is established.
+
+The webpage recommendation has been updated. Qwen was run programmatically; Roboflow was run previously in the free browser UI and its saved detections reused. If both model inferences must be programmatic, the Roboflow portion remains unmet. No API key or payment was used.

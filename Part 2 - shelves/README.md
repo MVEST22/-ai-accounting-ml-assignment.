@@ -88,6 +88,17 @@ Checks: all seven original-image SHA-256 hashes match the run manifest; all raw 
 
 The source notebook is [Part_2_Programmatic_Inference.ipynb](Part_2_Programmatic_Inference.ipynb). It uses float32, eager attention, smaller image inputs and automatic CPU offloading after the initial float16 run produced unusable output. Its parser accepts flat/nested coordinate arrays and named coordinate fields without inventing missing boxes. Raw responses and the prompt are preserved.
 
-**Recommendation for this run:** treat both outputs as candidate alerts requiring visual confirmation. Qwen reports only eight regions across the seven photographs, with substantial count disagreements in zones 2 and 3. This does not by itself establish either model's accuracy or which regions are true gaps. Inspect the original photos and both overlays before accepting alerts. Do not present the previous ChatGPT recommendation as a conclusion about Qwen.
+**Recommendation for this run:** use Roboflow as an initial list of replenishment alerts, with employee confirmation. In the reviewed WA0014 screenshot, it marks several visible gaps, whereas Qwen's two boxes overlap stocked products and shelf edges and miss several obvious gaps. This example supports Roboflow as the more useful starting point here; it does not establish measured accuracy across all seven photos. Check small and borderline boxes manually. Counts are empty areas, not exact missing product quantities.
 
-**Remaining evidence:** a screenshot of the new Qwen comparison and the executed Colab notebook still need to be added. The ZIP includes an unexecuted source template; it is not the executed notebook. If the lecturer requires programmatic inference for both models, that requirement remains unmet for Roboflow: its inference was performed in the free browser UI.
+### Execution and screenshot evidence
+
+- [Executed Colab notebook](results/qwen_colab/executed_inference.ipynb): all six code cells have execution counts, no saved error outputs, and final Qwen counts 1, 1, 1, 1, 2, 1, 1. Roboflow counts are 1, 1, 1, 10, 17, 11, 6. The uploaded notebook is preserved unchanged.
+- [Comparison summary screenshot](results/qwen_colab/comparison_summary.png): seven photos, totals 8 and 47.
+- [WA0014 overlay screenshot](results/qwen_colab/comparison_WA0014.jpg): two Qwen areas versus seventeen Roboflow areas. Converted from the supplied PNG to JPEG for repository size; the viewport cuts off the very bottom.
+- [Reviewed comparison webpage](results/qwen_colab/comparison_programmatic.html): includes the recommendation above.
+
+![Qwen comparison summary](results/qwen_colab/comparison_summary.png)
+
+![WA0014 comparison](results/qwen_colab/comparison_WA0014.jpg)
+
+**Method limitation:** if the lecturer requires programmatic inference for both models, that requirement remains unmet for Roboflow: its inference was performed in the free browser UI. The executed notebook documents this explicitly. No paid API was used.
