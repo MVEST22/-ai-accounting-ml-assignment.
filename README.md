@@ -12,13 +12,13 @@ This repository organizes the three parts of the ML assignment.
 
 - Original instructions added for all three parts.
 - Initial LLM sheep estimate: approximately 2,500 (rough visual estimate, unverified).
-- Counting script and CountThings comparison: pending.
+- Sheep script executed: 3,621; CountThings export saved: 2,882. Comparison and provisional assessment documented; independent validation and class form remain pending.
 - Shelf detections and webpage: pending.
 - Orange model comparison, 200 predictions, and dashboard: pending.
 
 ## Source data
 
-Extract `ML.zip` on your computer and upload its three folders here, preserving their names and subfolders. This adds the sheep photograph, all seven shelf photographs, and `historical.csv`. Upload the extracted files, rather than only the ZIP, so the scripts can use them directly.
+The sheep photograph, all seven shelf photographs, and `historical.csv` have been uploaded in their original folders.
 
 ## Submission evidence
 

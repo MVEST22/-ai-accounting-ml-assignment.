@@ -1,0 +1,4 @@
+method,count,status
+LLM visual estimate,2500,Approximate unverified estimate
+Python script,3621,Executed unvalidated heuristic
+CountThings,2882,User-supplied Sheep 120 export; unverified

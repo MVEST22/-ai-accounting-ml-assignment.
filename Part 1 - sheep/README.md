@@ -6,7 +6,7 @@
 |---|---:|---|
 | Initial LLM visual estimate | Approximately 2,500 | Rough, unverified estimate from the conversation |
 | LLM-generated Python script | 3,621 | Executed on the supplied photograph; unvalidated heuristic |
-| CountThings | Pending | Must be run and documented with a screenshot |
+| CountThings | 2,882 | User-supplied CountThings export; Sheep 120 template; unverified |
 
 ## Run the script
 
@@ -29,11 +29,17 @@ Visual inspection of the final overlay still shows false detections on terrain a
 
 You can report it as a preliminary AI estimate, clearly explaining its limitations. You should not present it as a verified livestock count or sufficient audit evidence. The sheep are small, closely grouped, and sometimes overlapping, so omissions and double counting are possible. The count needs independent validation, and the photograph's date, completeness, and connection to the farm must also be established.
 
+## CountThings evidence and recommendation
+
+![CountThings export showing 2,882 sheep](results/countthings_2882.jpeg)
+
+The original user-supplied export is preserved unchanged. Its header shows the Sheep 120 template and a result of 2,882. Whether manual corrections were made has not been established.
+
+I would report 2,882 to the audit partner as the provisional photo-based estimate, with low confidence in the exact number until the marked detections have been independently checked. CountThings provides detections that can be reviewed; the LLM estimate was rough, while inspection of the script overlay revealed false detections on terrain. This makes CountThings a provisional preference, not proof of superior accuracy.
+
+The script exceeds CountThings by 739 (25.6% relative to CountThings); the initial LLM estimate is 382 lower (13.3%). These are differences between methods, not measured errors against a known true count. Verify missed sheep, duplicate detections, and false positives, and establish the photograph's date, completeness, and association with the farm before relying on it as audit evidence.
+
 ## Remaining steps
 
-1. Count the original photograph using CountThings and retain the original output screenshot.
-2. Record any manual corrections and the final CountThings count.
-3. Compare the overlays and investigate disagreement before choosing a number to report. Agreement alone does not establish accuracy.
-4. Complete the class results form linked in the original instructions once all results are available.
-
-At present, neither available number should be reported as a verified count. The final recommendation and confidence assessment remain pending independent checking and the CountThings result.
+- Independently review detections and document any manual corrections.
+- Complete the class results form linked in the original instructions. It has not been submitted.
