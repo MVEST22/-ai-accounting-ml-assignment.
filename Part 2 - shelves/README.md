@@ -4,9 +4,9 @@
 
 1. On GitHub, select **Code → Download ZIP** for the repository.
 2. Extract the ZIP completely.
-3. Open `Part 2 - shelves/comparison.html` in Chrome or Edge. Keep the `zone 1`, `zone 2`, and `zone 3` folders beside it.
+3. Open `Part 2 - shelves/comparison.html` in Chrome or Edge. All seven original photographs are embedded in the HTML; it also works when moved to another folder.
 
-No installation, API key, server, or payment is required to view the saved comparison. GitHub's code view does not run HTML.
+Alternatively, download just `comparison.html` using GitHub’s **Download raw file** button and open it. No installation, API key, server, or payment is required to view the saved comparison. GitHub's code view does not run HTML.
 
 The page shows all seven images twice, with LLM boxes in cyan and specialized-model boxes in gold. Use the zone filter, overlay checkbox, and CSV download. The saved screenshot is `results/comparison_screenshot.png` (if present); a screenshot of your own local page can also be used for submission.
 

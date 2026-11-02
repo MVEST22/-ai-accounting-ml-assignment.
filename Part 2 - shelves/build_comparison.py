@@ -2,6 +2,7 @@
 No inference calls are made: the source files preserve interactive ChatGPT and
 user-operated Roboflow results. Run: python build_comparison.py
 """
+import base64
 import csv
 import json
 from pathlib import Path
@@ -48,6 +49,9 @@ def main():
         for i in images:
             writer.writerow([i['zone'],Path(i['image']).name,len(i['llm']),len(i['cv']),len(i['cv'])-len(i['llm'])])
     template=(BASE/'comparison_template.html').read_text()
+    for item in images:
+        image_bytes=(BASE/item['image']).read_bytes()
+        item['image_data']='data:image/jpeg;base64,'+base64.b64encode(image_bytes).decode('ascii')
     payload=json.dumps(images).replace('<','\\u003c')
     (BASE/'comparison.html').write_text(template.replace('/*DATA*/[]',payload))
     print('Created comparison.html and results/comparison.csv')
