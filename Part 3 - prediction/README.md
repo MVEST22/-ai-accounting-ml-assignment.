@@ -64,12 +64,17 @@ Run `python build_dashboard.py` from any directory. Only the Python standard lib
 
 `results/provenance.json` records source file hashes and assumptions. `results/nightly_room_use.csv` contains exact nightly calculations.
 
-## Remaining submission evidence
+## Saved submission evidence
 
 - Final Orange workflow saved: `hotel_cancellation.ows`. Original user file content preserved; only the duplicated filename extension was removed. The eight widget nodes and eight expected enabled links were checked in the XML. Opening elsewhere may require reselecting the local historical and planned data files.
 - Final full Orange workflow screenshot saved: `results/orange_workflow.png`, showing training, model comparison, future input, Predictions, and Save Data.
-- Open `dashboard.html` locally and take a **dashboard screenshot** showing the three series.
+- User-supplied local dashboard screenshots saved: `results/dashboard_summary.png` and `results/dashboard_chart.png`. The summary shows 200 reservations, peak booked rooms 38, peak expected rooms 16.5 and mean cancellation probability 62.6%. The chart shows booked rooms, expected rooms and the 37-room capacity; 28 November is selected.
 
-The 200-row prediction file, model-choice explanation, saved workflow and workflow screenshot are prepared. A screenshot of the dashboard open locally is still required.
+The 200-row prediction file, model-choice explanation, saved workflow and workflow screenshot are prepared. Both screenshots of the dashboard open locally have now been supplied and saved.
 
 ![User-executed Orange workflow](results/orange_workflow.png)
+
+
+![Hotel dashboard summary](results/dashboard_summary.png)
+
+![Nightly occupancy chart](results/dashboard_chart.png)
