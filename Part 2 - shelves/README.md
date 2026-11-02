@@ -8,7 +8,9 @@
 
 Alternatively, download just `comparison.html` using GitHub’s **Download raw file** button and open it. No installation, API key, server, or payment is required to view the saved comparison. GitHub's code view does not run HTML.
 
-The page shows all seven images twice, with LLM boxes in cyan and specialized-model boxes in gold. Use the zone filter, overlay checkbox, and CSV download. The saved screenshot is `results/comparison_screenshot.png` (if present); a screenshot of your own local page can also be used for submission.
+The page shows all seven images twice, with LLM boxes in cyan and specialized-model boxes in gold. Use the zone filter, overlay checkbox, and CSV download. The user-supplied local screenshot is saved as `results/comparison_screenshot.png`. It shows WA0017 with the original photograph and both overlays (8 LLM areas versus 11 specialized-model areas); the viewport cuts off the very bottom of the images.
+
+![Local comparison screenshot](results/comparison_screenshot.png)
 
 ## Results
 
@@ -62,5 +64,5 @@ For this small sample, the LLM locates several obvious gaps missed by the specia
 - LLM result capture code and task: `prepare_detections.py`, `llm_prompt.md`, `results/llm_response.json`.
 - Specialized-model output capture: `prepare_detections.py`, `results/roboflow_browser.json`; optional API code: `run_roboflow.py` (see caveat above).
 - Comparison webpage: `comparison.html`; build code: `build_comparison.py` and `comparison_template.html`.
-- Screenshot: `results/comparison_screenshot.png`, if present, or your own local screenshot.
+- Screenshot: `results/comparison_screenshot.png` (user-supplied evidence of the local page).
 - Recommendation: above and on the webpage.
