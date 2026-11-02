@@ -66,3 +66,11 @@ For this small sample, the LLM locates several obvious gaps missed by the specia
 - Comparison webpage: `comparison.html`; build code: `build_comparison.py` and `comparison_template.html`.
 - Screenshot: `results/comparison_screenshot.png` (user-supplied evidence of the local page).
 - Recommendation: above and on the webpage.
+
+## Finish the programmatic inference requirement
+
+Open [Part_2_Programmatic_Inference.ipynb in Google Colab](https://colab.research.google.com/github/MVEST22/-ai-accounting-ml-assignment./blob/main/Part%202%20-%20shelves/Part_2_Programmatic_Inference.ipynb).
+
+This newly prepared notebook has been syntax-checked but **has not been executed**. It runs Qwen/Qwen2.5-VL-3B-Instruct on a Colab GPU and the specialized Roboflow model through its SDK, preserving raw outputs, prompt, run metadata, counts, and an offline comparison page. Use an available free GPU and your own Roboflow inference allowance; do not purchase credits. The API key is entered privately, not saved in source or outputs.
+
+After running it, download both the results ZIP and the executed notebook. Review the new overlays and revise the recommendation before replacing any existing counts or screenshots. The existing comparison remains labelled as the earlier interactive ChatGPT/browser experiment; a Qwen run must not be labelled as ChatGPT. GPU and service availability are not guaranteed.

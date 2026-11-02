@@ -66,8 +66,10 @@ Run `python build_dashboard.py` from any directory. Only the Python standard lib
 
 ## Remaining submission evidence
 
-- Save and upload the **final Orange workflow** (`hotel_cancellation.ows`) for reproducibility.
-- Provide a screenshot of the **final full Orange workflow**, including training, model comparison, future input, Predictions, and Save Data.
+- Final Orange workflow saved: `hotel_cancellation.ows`. Original user file content preserved; only the duplicated filename extension was removed. The eight widget nodes and eight expected enabled links were checked in the XML. Opening elsewhere may require reselecting the local historical and planned data files.
+- Final full Orange workflow screenshot saved: `results/orange_workflow.png`, showing training, model comparison, future input, Predictions, and Save Data.
 - Open `dashboard.html` locally and take a **dashboard screenshot** showing the three series.
 
-The 200-row prediction file and model-choice explanation are prepared. The final workflow and dashboard screenshots are still required.
+The 200-row prediction file, model-choice explanation, saved workflow and workflow screenshot are prepared. A screenshot of the dashboard open locally is still required.
+
+![User-executed Orange workflow](results/orange_workflow.png)
