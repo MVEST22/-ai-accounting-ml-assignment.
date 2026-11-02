@@ -1,0 +1,260 @@
+{
+  "reservations": 200,
+  "capacity": 37,
+  "mean_cancellation_probability": 0.625759275,
+  "expected_non_cancelled_reservations": 74.848145,
+  "booked_room_nights": 627,
+  "expected_room_nights": 241.86091,
+  "peak_bookings": 38,
+  "peak_expected_room_use": 16.505874,
+  "over_capacity_dates": [
+    "2026-11-28"
+  ],
+  "nightly": [
+    {
+      "date": "2026-11-09",
+      "bookings": 10,
+      "expected": 4.3234520000000005,
+      "capacity": 37,
+      "booked_headroom": 27,
+      "expected_headroom": 32.676548
+    },
+    {
+      "date": "2026-11-10",
+      "bookings": 19,
+      "expected": 7.606904999999999,
+      "capacity": 37,
+      "booked_headroom": 18,
+      "expected_headroom": 29.393095000000002
+    },
+    {
+      "date": "2026-11-11",
+      "bookings": 23,
+      "expected": 9.700833999999999,
+      "capacity": 37,
+      "booked_headroom": 14,
+      "expected_headroom": 27.299166
+    },
+    {
+      "date": "2026-11-12",
+      "bookings": 23,
+      "expected": 10.509168999999998,
+      "capacity": 37,
+      "booked_headroom": 14,
+      "expected_headroom": 26.490831
+    },
+    {
+      "date": "2026-11-13",
+      "bookings": 26,
+      "expected": 11.298693,
+      "capacity": 37,
+      "booked_headroom": 11,
+      "expected_headroom": 25.701307
+    },
+    {
+      "date": "2026-11-14",
+      "bookings": 27,
+      "expected": 10.005595999999999,
+      "capacity": 37,
+      "booked_headroom": 10,
+      "expected_headroom": 26.994404000000003
+    },
+    {
+      "date": "2026-11-15",
+      "bookings": 27,
+      "expected": 10.300358,
+      "capacity": 37,
+      "booked_headroom": 10,
+      "expected_headroom": 26.699642
+    },
+    {
+      "date": "2026-11-16",
+      "bookings": 32,
+      "expected": 11.340597,
+      "capacity": 37,
+      "booked_headroom": 5,
+      "expected_headroom": 25.659402999999998
+    },
+    {
+      "date": "2026-11-17",
+      "bookings": 29,
+      "expected": 9.728253999999998,
+      "capacity": 37,
+      "booked_headroom": 8,
+      "expected_headroom": 27.271746
+    },
+    {
+      "date": "2026-11-18",
+      "bookings": 31,
+      "expected": 10.576427999999998,
+      "capacity": 37,
+      "booked_headroom": 6,
+      "expected_headroom": 26.423572
+    },
+    {
+      "date": "2026-11-19",
+      "bookings": 31,
+      "expected": 10.394681000000002,
+      "capacity": 37,
+      "booked_headroom": 6,
+      "expected_headroom": 26.605318999999998
+    },
+    {
+      "date": "2026-11-20",
+      "bookings": 29,
+      "expected": 10.694562999999997,
+      "capacity": 37,
+      "booked_headroom": 8,
+      "expected_headroom": 26.305437000000005
+    },
+    {
+      "date": "2026-11-21",
+      "bookings": 30,
+      "expected": 12.113453999999999,
+      "capacity": 37,
+      "booked_headroom": 7,
+      "expected_headroom": 24.886546000000003
+    },
+    {
+      "date": "2026-11-22",
+      "bookings": 32,
+      "expected": 12.504645000000002,
+      "capacity": 37,
+      "booked_headroom": 5,
+      "expected_headroom": 24.495354999999996
+    },
+    {
+      "date": "2026-11-23",
+      "bookings": 31,
+      "expected": 10.396324000000002,
+      "capacity": 37,
+      "booked_headroom": 6,
+      "expected_headroom": 26.603676
+    },
+    {
+      "date": "2026-11-24",
+      "bookings": 33,
+      "expected": 10.399182000000003,
+      "capacity": 37,
+      "booked_headroom": 4,
+      "expected_headroom": 26.600817999999997
+    },
+    {
+      "date": "2026-11-25",
+      "bookings": 33,
+      "expected": 11.428627999999996,
+      "capacity": 37,
+      "booked_headroom": 4,
+      "expected_headroom": 25.571372000000004
+    },
+    {
+      "date": "2026-11-26",
+      "bookings": 32,
+      "expected": 11.546101000000002,
+      "capacity": 37,
+      "booked_headroom": 5,
+      "expected_headroom": 25.453899
+    },
+    {
+      "date": "2026-11-27",
+      "bookings": 35,
+      "expected": 14.403442,
+      "capacity": 37,
+      "booked_headroom": 2,
+      "expected_headroom": 22.596558
+    },
+    {
+      "date": "2026-11-28",
+      "bookings": 38,
+      "expected": 16.505874,
+      "capacity": 37,
+      "booked_headroom": -1,
+      "expected_headroom": 20.494126
+    },
+    {
+      "date": "2026-11-29",
+      "bookings": 25,
+      "expected": 11.280873,
+      "capacity": 37,
+      "booked_headroom": 12,
+      "expected_headroom": 25.719127
+    },
+    {
+      "date": "2026-11-30",
+      "bookings": 14,
+      "expected": 6.231309,
+      "capacity": 37,
+      "booked_headroom": 23,
+      "expected_headroom": 30.768691
+    },
+    {
+      "date": "2026-12-01",
+      "bookings": 8,
+      "expected": 3.680357,
+      "capacity": 37,
+      "booked_headroom": 29,
+      "expected_headroom": 33.319643
+    },
+    {
+      "date": "2026-12-02",
+      "bookings": 6,
+      "expected": 2.89119,
+      "capacity": 37,
+      "booked_headroom": 31,
+      "expected_headroom": 34.10881
+    },
+    {
+      "date": "2026-12-03",
+      "bookings": 1,
+      "expected": 0.666667,
+      "capacity": 37,
+      "booked_headroom": 36,
+      "expected_headroom": 36.333333
+    },
+    {
+      "date": "2026-12-04",
+      "bookings": 1,
+      "expected": 0.666667,
+      "capacity": 37,
+      "booked_headroom": 36,
+      "expected_headroom": 36.333333
+    },
+    {
+      "date": "2026-12-05",
+      "bookings": 1,
+      "expected": 0.666667,
+      "capacity": 37,
+      "booked_headroom": 36,
+      "expected_headroom": 36.333333
+    }
+  ],
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "AUC": 0.823,
+      "Accuracy": 0.74,
+      "F1": 0.734,
+      "Precision": 0.737,
+      "Recall": 0.74,
+      "MCC": 0.447
+    },
+    {
+      "model": "Random Forest",
+      "AUC": 0.871,
+      "Accuracy": 0.795,
+      "F1": 0.793,
+      "Precision": 0.793,
+      "Recall": 0.795,
+      "MCC": 0.568
+    },
+    {
+      "model": "Tree",
+      "AUC": 0.767,
+      "Accuracy": 0.749,
+      "F1": 0.748,
+      "Precision": 0.748,
+      "Recall": 0.749,
+      "MCC": 0.475
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "User-executed Orange Random Forest predictions; no model rerun in dashboard code",
+  "evaluation": "User screenshot, five-fold stratified cross-validation; scores rounded to three decimals",
+  "class_1": "Canceled",
+  "class_0": "Not canceled",
+  "source_row_order_verified": true,
+  "assumptions": [
+    "One room per reservation",
+    "All supplied stays counted from arrival inclusive to departure exclusive",
+    "No additional bookings or out-of-service rooms included",
+    "Probability estimates are uncalibrated and may not transfer from 2015\u20132016 training data to 2026 planned bookings"
+  ],
+  "sha256": {
+    "hotel_predictions.tab": "60e1619745e27e0f6570e2693c4c5e569f4d08e64eb02f01a747f02ad96e279b",
+    "planned_reservations.csv": "b6446e74a7999843f3930e1706a7266a3d6d719c4f0db9771134ca979bb97662"
+  }
+}
