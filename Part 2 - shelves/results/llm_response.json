@@ -1,0 +1,300 @@
+{
+  "source": "Interactive ChatGPT visual assessment of original 640x640 photos; approximate boxes, not ground truth. Produced after Roboflow outputs were visible, so this is not a blinded evaluation.",
+  "unit": "contiguous visible empty front-facing shelf area, not missing product units",
+  "images": [
+    {
+      "image": "zone 1/IMG-20250318-WA0009_jpg.rf.f816dea980408a88fabcb1c060d1e222.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 346,
+          "y1": 356,
+          "x2": 389,
+          "y2": 462,
+          "reason": "Gap between milk cartons on the third visible shelf"
+        }
+      ]
+    },
+    {
+      "image": "zone 1/IMG-20250318-WA0010_jpg.rf.3a6dc9423696392af0825b1966c344ec.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 75,
+          "y1": 392,
+          "x2": 218,
+          "y2": 432,
+          "reason": "Broad empty front section on the second shelf from the bottom"
+        }
+      ]
+    },
+    {
+      "image": "zone 1/IMG-20250318-WA0011_jpg.rf.3feadc2484c4944c21cc768e7ae6e15c.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 250,
+          "y1": 166,
+          "x2": 306,
+          "y2": 220,
+          "reason": "Gap between yellow packets and purple tubs"
+        }
+      ]
+    },
+    {
+      "image": "zone 2/IMG-20250318-WA0012_jpg.rf.184ad394d51010b6289610193db31035.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 45,
+          "y1": 42,
+          "x2": 72,
+          "y2": 84,
+          "reason": "Upper left gap"
+        },
+        {
+          "x1": 124,
+          "y1": 48,
+          "x2": 187,
+          "y2": 82,
+          "reason": "Gap above small packets"
+        },
+        {
+          "x1": 292,
+          "y1": 95,
+          "x2": 314,
+          "y2": 154,
+          "reason": "Tall gap between packet groups"
+        },
+        {
+          "x1": 462,
+          "y1": 57,
+          "x2": 494,
+          "y2": 114,
+          "reason": "Upper right gap"
+        },
+        {
+          "x1": 119,
+          "y1": 326,
+          "x2": 161,
+          "y2": 389,
+          "reason": "Gap between yellow and red cartons"
+        },
+        {
+          "x1": 187,
+          "y1": 547,
+          "x2": 254,
+          "y2": 609,
+          "reason": "Lower shelf gap"
+        },
+        {
+          "x1": 420,
+          "y1": 512,
+          "x2": 447,
+          "y2": 559,
+          "reason": "Lower shelf gap beside cartons"
+        }
+      ]
+    },
+    {
+      "image": "zone 2/IMG-20250318-WA0014_jpg.rf.ac528e2b1abc7cd000f5708c72c77dce.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 210,
+          "y1": 111,
+          "x2": 236,
+          "y2": 159,
+          "reason": "Upper shelf gap"
+        },
+        {
+          "x1": 111,
+          "y1": 172,
+          "x2": 144,
+          "y2": 220,
+          "reason": "Left gap on third shelf"
+        },
+        {
+          "x1": 244,
+          "y1": 181,
+          "x2": 328,
+          "y2": 230,
+          "reason": "Large central gap"
+        },
+        {
+          "x1": 459,
+          "y1": 195,
+          "x2": 479,
+          "y2": 240,
+          "reason": "Gap before red jars"
+        },
+        {
+          "x1": 626,
+          "y1": 241,
+          "x2": 640,
+          "y2": 288,
+          "reason": "Gap at right edge"
+        },
+        {
+          "x1": 165,
+          "y1": 307,
+          "x2": 184,
+          "y2": 343,
+          "reason": "Gap between jars"
+        },
+        {
+          "x1": 454,
+          "y1": 319,
+          "x2": 472,
+          "y2": 355,
+          "reason": "Gap before red jars"
+        },
+        {
+          "x1": 394,
+          "y1": 375,
+          "x2": 433,
+          "y2": 413,
+          "reason": "Recessed stock and exposed front shelf"
+        },
+        {
+          "x1": 381,
+          "y1": 433,
+          "x2": 401,
+          "y2": 473,
+          "reason": "Gap beside bottles"
+        },
+        {
+          "x1": 187,
+          "y1": 547,
+          "x2": 204,
+          "y2": 580,
+          "reason": "Small lower shelf gap"
+        },
+        {
+          "x1": 287,
+          "y1": 532,
+          "x2": 322,
+          "y2": 579,
+          "reason": "Central lower shelf gap"
+        },
+        {
+          "x1": 224,
+          "y1": 597,
+          "x2": 261,
+          "y2": 638,
+          "reason": "Bottom shelf gap"
+        }
+      ]
+    },
+    {
+      "image": "zone 3/IMG-20250318-WA0017_jpg.rf.efd1a802ee4a2d0acea681d1249723b8.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 231,
+          "y1": 52,
+          "x2": 256,
+          "y2": 100,
+          "reason": "Upper left gap"
+        },
+        {
+          "x1": 225,
+          "y1": 126,
+          "x2": 243,
+          "y2": 170,
+          "reason": "Gap beside white labels"
+        },
+        {
+          "x1": 211,
+          "y1": 197,
+          "x2": 272,
+          "y2": 260,
+          "reason": "Wide middle left gap"
+        },
+        {
+          "x1": 275,
+          "y1": 416,
+          "x2": 332,
+          "y2": 473,
+          "reason": "Gap beside small bottles"
+        },
+        {
+          "x1": 279,
+          "y1": 482,
+          "x2": 356,
+          "y2": 531,
+          "reason": "Wide lower middle gap"
+        },
+        {
+          "x1": 185,
+          "y1": 550,
+          "x2": 274,
+          "y2": 602,
+          "reason": "Bottom left gap"
+        },
+        {
+          "x1": 532,
+          "y1": 472,
+          "x2": 560,
+          "y2": 506,
+          "reason": "Lower right gap"
+        },
+        {
+          "x1": 530,
+          "y1": 524,
+          "x2": 564,
+          "y2": 563,
+          "reason": "Bottom right gap"
+        }
+      ]
+    },
+    {
+      "image": "zone 3/IMG-20250318-WA0019_jpg.rf.ff3212b6fc7dd5f7af55e2195b5d1757.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 264,
+          "y1": 24,
+          "x2": 325,
+          "y2": 63,
+          "reason": "Top shelf central gap"
+        },
+        {
+          "x1": 136,
+          "y1": 287,
+          "x2": 158,
+          "y2": 335,
+          "reason": "Gap beside dark bottles"
+        },
+        {
+          "x1": 204,
+          "y1": 489,
+          "x2": 234,
+          "y2": 533,
+          "reason": "Lower central gap"
+        },
+        {
+          "x1": 82,
+          "y1": 570,
+          "x2": 119,
+          "y2": 622,
+          "reason": "Bottom left gap"
+        },
+        {
+          "x1": 559,
+          "y1": 240,
+          "x2": 593,
+          "y2": 270,
+          "reason": "Right shelf gap"
+        }
+      ]
+    }
+  ]
+}
