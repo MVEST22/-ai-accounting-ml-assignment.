@@ -1,0 +1,67 @@
+{
+  "image": "zone 3/IMG-20250318-WA0019_jpg.rf.ff3212b6fc7dd5f7af55e2195b5d1757.jpg",
+  "width": 640,
+  "height": 640,
+  "predictions": [
+    {
+      "x": 100.5,
+      "y": 595,
+      "width": 37,
+      "height": 52,
+      "confidence": 0.702,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "39e413dd-b275-4512-8155-ca4d9879e677"
+    },
+    {
+      "x": 217.5,
+      "y": 511,
+      "width": 27,
+      "height": 40,
+      "confidence": 0.69,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "b60f20c8-33e1-4f4a-a5d9-0d709b0459fb"
+    },
+    {
+      "x": 293.5,
+      "y": 45.5,
+      "width": 61,
+      "height": 41,
+      "confidence": 0.608,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "7adfe9fa-3890-4323-acd7-beeebd80e6d7"
+    },
+    {
+      "x": 574,
+      "y": 252,
+      "width": 32,
+      "height": 22,
+      "confidence": 0.529,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "ff24ff34-4e17-4096-b7af-92960053688d"
+    },
+    {
+      "x": 633.5,
+      "y": 343.5,
+      "width": 13,
+      "height": 21,
+      "confidence": 0.475,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "dad16ecc-8546-484b-b144-d7b394e6bf34"
+    },
+    {
+      "x": 147,
+      "y": 311.5,
+      "width": 16,
+      "height": 49,
+      "confidence": 0.276,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "f6c3f1ae-21a0-423f-9143-b053017f2b6a"
+    }
+  ]
+}

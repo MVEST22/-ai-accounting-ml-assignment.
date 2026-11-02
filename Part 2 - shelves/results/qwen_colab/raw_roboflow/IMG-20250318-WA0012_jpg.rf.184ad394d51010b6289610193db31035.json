@@ -1,0 +1,107 @@
+{
+  "image": "zone 2/IMG-20250318-WA0012_jpg.rf.184ad394d51010b6289610193db31035.jpg",
+  "width": 640,
+  "height": 640,
+  "predictions": [
+    {
+      "x": 56.5,
+      "y": 59.5,
+      "width": 25,
+      "height": 33,
+      "confidence": 0.717,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "090218dd-d686-41ff-ab5a-16e12efacb23"
+    },
+    {
+      "x": 303.5,
+      "y": 124,
+      "width": 17,
+      "height": 60,
+      "confidence": 0.679,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "6db20458-9465-42e9-97f8-800a656d6c05"
+    },
+    {
+      "x": 142,
+      "y": 356,
+      "width": 34,
+      "height": 56,
+      "confidence": 0.657,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "dd7c3144-368e-458e-bedb-03a6f7d75aa8"
+    },
+    {
+      "x": 552,
+      "y": 275.5,
+      "width": 20,
+      "height": 15,
+      "confidence": 0.546,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "ea44fc57-321b-42c3-89d6-68bc2ca70f49"
+    },
+    {
+      "x": 429.5,
+      "y": 530,
+      "width": 13,
+      "height": 36,
+      "confidence": 0.454,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "ebf4a899-5ce4-4f27-9598-a7511ffdf658"
+    },
+    {
+      "x": 238.5,
+      "y": 572,
+      "width": 33,
+      "height": 58,
+      "confidence": 0.447,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "fa2e08c9-db71-414d-a1d7-4004d9fceb8a"
+    },
+    {
+      "x": 478.5,
+      "y": 84.5,
+      "width": 25,
+      "height": 55,
+      "confidence": 0.436,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "7dd1de92-2231-41e3-8c51-87fbb522bbe3"
+    },
+    {
+      "x": 301,
+      "y": 253.5,
+      "width": 82,
+      "height": 13,
+      "confidence": 0.323,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "e13958f4-30e9-4879-b8d4-0d7104996ca7"
+    },
+    {
+      "x": 157,
+      "y": 69,
+      "width": 66,
+      "height": 30,
+      "confidence": 0.319,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "fdc89b58-3ac2-4b0a-8ea6-5b8ced497288"
+    },
+    {
+      "x": 369.5,
+      "y": 262,
+      "width": 33,
+      "height": 24,
+      "confidence": 0.278,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "2486597f-cb78-4367-84e0-79703d4c000e"
+    }
+  ]
+}

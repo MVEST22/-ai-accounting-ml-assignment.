@@ -1,0 +1,177 @@
+{
+  "image": "zone 2/IMG-20250318-WA0014_jpg.rf.ac528e2b1abc7cd000f5708c72c77dce.jpg",
+  "width": 640,
+  "height": 640,
+  "predictions": [
+    {
+      "x": 305,
+      "y": 554,
+      "width": 32,
+      "height": 42,
+      "confidence": 0.811,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "22b9d528-362b-49d9-88c6-c3c94fc882de"
+    },
+    {
+      "x": 286,
+      "y": 207,
+      "width": 80,
+      "height": 44,
+      "confidence": 0.801,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "618d9251-4bdf-4133-aa57-c68e2b7b997c"
+    },
+    {
+      "x": 241,
+      "y": 618,
+      "width": 36,
+      "height": 40,
+      "confidence": 0.76,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "e2fa4680-b9dd-407a-b997-1b28eade40a4"
+    },
+    {
+      "x": 468.5,
+      "y": 216,
+      "width": 19,
+      "height": 42,
+      "confidence": 0.747,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "dd703fbb-ec8b-46bd-9367-29626a7ff806"
+    },
+    {
+      "x": 222,
+      "y": 136,
+      "width": 26,
+      "height": 50,
+      "confidence": 0.676,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "e7875986-a2a9-49e0-9653-7220c37b3070"
+    },
+    {
+      "x": 463,
+      "y": 338,
+      "width": 18,
+      "height": 36,
+      "confidence": 0.645,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "0db17d54-5262-4a3b-9573-61d12b51eefd"
+    },
+    {
+      "x": 195.5,
+      "y": 563.5,
+      "width": 15,
+      "height": 33,
+      "confidence": 0.575,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "fd0f0021-8ee2-4095-b02d-3e0eae154ab6"
+    },
+    {
+      "x": 631,
+      "y": 264,
+      "width": 18,
+      "height": 48,
+      "confidence": 0.551,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "64c83531-c2f5-47f0-bfb2-a8196eb586a8"
+    },
+    {
+      "x": 390.5,
+      "y": 454,
+      "width": 21,
+      "height": 40,
+      "confidence": 0.545,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "b4f7293a-6b92-4711-9e9d-5acd870d16da"
+    },
+    {
+      "x": 172.5,
+      "y": 326,
+      "width": 17,
+      "height": 32,
+      "confidence": 0.506,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "2569a5bb-01a8-4204-96c7-3e4ed23bf789"
+    },
+    {
+      "x": 127.5,
+      "y": 195,
+      "width": 33,
+      "height": 46,
+      "confidence": 0.458,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "a38ed29e-6347-4370-9b35-25bafd3ae377"
+    },
+    {
+      "x": 573,
+      "y": 325.5,
+      "width": 64,
+      "height": 19,
+      "confidence": 0.398,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "2e774c80-6577-4dc4-a8d9-3d2963a26e52"
+    },
+    {
+      "x": 549.5,
+      "y": 576,
+      "width": 49,
+      "height": 28,
+      "confidence": 0.391,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "b3d62a1d-6829-4e16-a3a1-3ec665401a98"
+    },
+    {
+      "x": 586,
+      "y": 163.5,
+      "width": 68,
+      "height": 33,
+      "confidence": 0.344,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "75921769-8c46-45fd-827b-3c494d2ccbbf"
+    },
+    {
+      "x": 413.5,
+      "y": 394.5,
+      "width": 37,
+      "height": 39,
+      "confidence": 0.314,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "56423c84-3490-41b0-8939-fc8bd726da92"
+    },
+    {
+      "x": 579,
+      "y": 244.5,
+      "width": 66,
+      "height": 17,
+      "confidence": 0.283,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "faeb0910-7536-451c-853d-fa6e63c50aeb"
+    },
+    {
+      "x": 372,
+      "y": 510,
+      "width": 14,
+      "height": 28,
+      "confidence": 0.274,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "0f538b09-8a81-4f07-91ab-62e86d62484b"
+    }
+  ]
+}

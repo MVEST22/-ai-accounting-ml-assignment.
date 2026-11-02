@@ -1,0 +1,8 @@
+zone,filename,qwen_llm_empty_areas,roboflow_empty_areas
+zone 1,IMG-20250318-WA0009_jpg.rf.f816dea980408a88fabcb1c060d1e222.jpg,1,1
+zone 1,IMG-20250318-WA0010_jpg.rf.3a6dc9423696392af0825b1966c344ec.jpg,1,1
+zone 1,IMG-20250318-WA0011_jpg.rf.3feadc2484c4944c21cc768e7ae6e15c.jpg,1,1
+zone 2,IMG-20250318-WA0012_jpg.rf.184ad394d51010b6289610193db31035.jpg,1,10
+zone 2,IMG-20250318-WA0014_jpg.rf.ac528e2b1abc7cd000f5708c72c77dce.jpg,2,17
+zone 3,IMG-20250318-WA0017_jpg.rf.efd1a802ee4a2d0acea681d1249723b8.jpg,1,11
+zone 3,IMG-20250318-WA0019_jpg.rf.ff3212b6fc7dd5f7af55e2195b5d1757.jpg,1,6

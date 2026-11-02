@@ -1,0 +1,13 @@
+```json
+{
+    "boxes": [
+        {
+            "x1": 398, 
+            "y1": 456, 
+            "x2": 527, 
+            "y2": 475,
+            "reason": "stock pushed to the back with exposed shelf front"
+        }
+    ]
+}
+```

@@ -1,0 +1,112 @@
+{
+  "source": "Programmatic Qwen visual inference executed in Colab; no other model outputs included in prompts",
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "unit": "contiguous empty front-facing shelf areas, not missing product units",
+  "images": [
+    {
+      "image": "zone 1/IMG-20250318-WA0009_jpg.rf.f816dea980408a88fabcb1c060d1e222.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 24.96,
+          "y1": 182.4,
+          "x2": 259.84000000000003,
+          "y2": 339.84000000000003,
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "image": "zone 1/IMG-20250318-WA0010_jpg.rf.3a6dc9423696392af0825b1966c344ec.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 240.0,
+          "y1": 136.96,
+          "x2": 338.56,
+          "y2": 221.44,
+          "reason": "stock pushed to the back"
+        }
+      ]
+    },
+    {
+      "image": "zone 1/IMG-20250318-WA0011_jpg.rf.3feadc2484c4944c21cc768e7ae6e15c.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 0.0,
+          "y1": 246.4,
+          "x2": 85.76,
+          "y2": 279.68,
+          "reason": "stock pushed to the back with exposed shelf front"
+        }
+      ]
+    },
+    {
+      "image": "zone 2/IMG-20250318-WA0012_jpg.rf.184ad394d51010b6289610193db31035.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 235.52,
+          "y1": 292.48,
+          "x2": 268.8,
+          "y2": 339.84000000000003,
+          "reason": "stock pushed to the back with exposed shelf front"
+        }
+      ]
+    },
+    {
+      "image": "zone 2/IMG-20250318-WA0014_jpg.rf.ac528e2b1abc7cd000f5708c72c77dce.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 220.8,
+          "y1": 56.96,
+          "x2": 294.40000000000003,
+          "y2": 108.8,
+          "reason": "stock pushed to the back with exposed shelf front"
+        },
+        {
+          "x1": 291.2,
+          "y1": 66.56,
+          "x2": 340.48,
+          "y2": 118.4,
+          "reason": "stock pushed to the back with exposed shelf front"
+        }
+      ]
+    },
+    {
+      "image": "zone 3/IMG-20250318-WA0017_jpg.rf.efd1a802ee4a2d0acea681d1249723b8.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 254.72,
+          "y1": 291.84000000000003,
+          "x2": 337.28000000000003,
+          "y2": 304.0,
+          "reason": "stock pushed to the back with exposed shelf front"
+        }
+      ]
+    },
+    {
+      "image": "zone 3/IMG-20250318-WA0019_jpg.rf.ff3212b6fc7dd5f7af55e2195b5d1757.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes": [
+        {
+          "x1": 254.72,
+          "y1": 291.84000000000003,
+          "x2": 339.84000000000003,
+          "y2": 305.92,
+          "reason": "stock pushed to the back with exposed shelf front"
+        }
+      ]
+    }
+  ]
+}

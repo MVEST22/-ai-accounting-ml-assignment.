@@ -1,0 +1,17 @@
+{
+  "image": "zone 1/IMG-20250318-WA0009_jpg.rf.f816dea980408a88fabcb1c060d1e222.jpg",
+  "width": 640,
+  "height": 640,
+  "predictions": [
+    {
+      "x": 561.5,
+      "y": 585.5,
+      "width": 19,
+      "height": 51,
+      "confidence": 0.262,
+      "class": "Empty-space",
+      "class_id": 0,
+      "detection_id": "e9054a54-a66b-4f43-8cf6-78743fc04482"
+    }
+  ]
+}

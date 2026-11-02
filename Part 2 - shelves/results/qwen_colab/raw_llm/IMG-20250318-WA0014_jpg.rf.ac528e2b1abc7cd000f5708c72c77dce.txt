@@ -1,0 +1,6 @@
+```json
+[
+	{"boxes": [345, 89, 460, 170], "reason": "stock pushed to the back with exposed shelf front"},
+	{"boxes": [455, 104, 532, 185], "reason": "stock pushed to the back with exposed shelf front"}
+]
+```
